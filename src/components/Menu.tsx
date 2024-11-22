@@ -120,13 +120,13 @@ const Menu = () => {
     <div className="mt-4 text-sm">
       {menuItems.map((i) => (
         <div className="flex flex-col gap-2" key={i.title}>
-          <span className="hidden lg:block text-grey-400 font-light my-4">
+          <span className="hidden lg:block text-gray-400 font-light my-4">
 {i.title}
           </span>
           
           <div className="menu-items">
             {i.items.map((item) => (
-              <Link href={item.href} key={item.label} className="flex items-center justify-center lg:justify-start gap-4 text-grey-500 py-2">
+              <Link href={item.href} key={item.label} className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2">
                 <div className="flex items-center gap-2">
                   <Image src={item.icon} alt={item.label} width={20} height={20} />
                   <span className="hidden lg:block" >{item.label}</span>
