@@ -1,9 +1,7 @@
-
-
-const Parentpage = () => {
+const LoginPage = () => {
   return (
-    <div>Parentpage</div>
+    <div className=''>LoginPage</div>
   )
 }
 
-export default Parentpage
+export default LoginPage
